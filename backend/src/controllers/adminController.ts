@@ -1,11 +1,11 @@
 import type { Request, Response } from "express";
 
-import User from "../models/User";
-import Event from "../models/event";
+import User from "../models/User.js";
+import Event from "../models/event.js";
 
 import {
   deleteCloudinaryImage,
-} from "../config/cloudinary";
+} from "../config/cloudinary.js";
 
 export const getAdminDashboard = async (
   _req: Request,

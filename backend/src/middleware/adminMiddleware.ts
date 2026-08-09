@@ -1,7 +1,7 @@
 import type { Response, NextFunction } from "express";
-import type { AuthRequest } from "./authMiddleware";
+import type { AuthRequest } from "./authMiddleware.js";
 
-import User from "../models/User";
+import User from "../models/User.js";
 
 export const adminOnly = async (
   req: AuthRequest,

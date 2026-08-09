@@ -1,8 +1,8 @@
 import { Request, Response } from "express";
 import bcrypt from "bcrypt";
-import User from "../models/User";
-import { generateToken } from "../utils/jwt";
-import { AuthRequest } from "../middleware/authMiddleware";
+import User from "../models/User.js";
+import { generateToken } from "../utils/jwt.js";
+import { AuthRequest } from "../middleware/authMiddleware.js";
 export const testAuth = (
     req: Request,
     res: Response

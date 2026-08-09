@@ -9,7 +9,7 @@ import type {
   UploadApiResponse,
 } from "cloudinary";
 
-import cloudinary from "../config/cloudinary";
+import cloudinary from "../config/cloudinary.js";
 
 interface CloudinaryUploadResult {
   secureUrl: string;

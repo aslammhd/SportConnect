@@ -4,8 +4,8 @@ import {
   registerUser,
   loginUser,
   getCurrentUser,
-} from "../controllers/authController";
-import { protect } from "../middleware/authMiddleware";
+} from "../controllers/authController.js";
+import { protect } from "../middleware/authMiddleware.js";
 const router = Router();
 
 router.get("/test", testAuth);

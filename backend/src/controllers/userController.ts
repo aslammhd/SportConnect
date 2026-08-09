@@ -2,14 +2,14 @@ import type { Response } from "express";
 
 import {
   deleteCloudinaryImage,
-} from "../config/cloudinary";
+} from "../config/cloudinary.js";
 
-import Event from "../models/event";
-import User from "../models/User";
+import Event from "../models/event.js";
+import User from "../models/User.js";
 
 import type {
   AuthRequest,
-} from "../middleware/authMiddleware";
+} from "../middleware/authMiddleware.js";
 
 export const getProfile = async (
   req: AuthRequest,

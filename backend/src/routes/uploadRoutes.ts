@@ -4,10 +4,10 @@ import {
   uploadImage,
   uploadAvatar,
   uploadCoverImage,
-} from "../controllers/uploadController";
+} from "../controllers/uploadController.js";
 
-import upload from "../middleware/uploadMiddleware";
-import { protect } from "../middleware/authMiddleware";
+import upload from "../middleware/uploadMiddleware.js";
+import { protect } from "../middleware/authMiddleware.js";
 
 const router = Router();
 

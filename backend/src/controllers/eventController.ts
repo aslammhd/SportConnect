@@ -1,10 +1,10 @@
 import { Request, Response } from "express";
-import Event from "../models/event";
-import { AuthRequest } from "../middleware/authMiddleware";
+import Event from "../models/event.js";
+import { AuthRequest } from "../middleware/authMiddleware.js";
 import mongoose from "mongoose";
 import {
     deleteCloudinaryImage,
-} from "../config/cloudinary";
+} from "../config/cloudinary.js";
 
 export const createEvent = async (
     req: AuthRequest,

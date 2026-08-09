@@ -3,15 +3,15 @@ import { Router } from "express";
 import {
   getAdminDashboard,
   adminDeleteEvent,
-} from "../controllers/adminController";
+} from "../controllers/adminController.js";
 
 import {
   protect,
-} from "../middleware/authMiddleware";
+} from "../middleware/authMiddleware.js";
 
 import {
   adminOnly,
-} from "../middleware/adminMiddleware";
+} from "../middleware/adminMiddleware.js";
 
 const router = Router();
 

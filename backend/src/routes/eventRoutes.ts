@@ -1,5 +1,5 @@
 import { Router } from "express";
-import { protect } from "../middleware/authMiddleware";
+import { protect } from "../middleware/authMiddleware.js";
 import {
     createEvent,
     getAllEvents,
@@ -9,7 +9,7 @@ import {
     updateEvent,
     deleteEvent,
     completeEvent,
-} from "../controllers/eventController";
+} from "../controllers/eventController.js";
 const router = Router();
 
 router.get(

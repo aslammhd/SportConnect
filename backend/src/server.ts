@@ -1,12 +1,12 @@
 import express from "express";
 import cors from "cors";
 import dotenv from "dotenv";
-import connectDatabase from "./config/database";
-import authRoutes from "./routes/authRoutes";
-import eventRoutes from "./routes/eventRoutes";
-import userRoutes from "./routes/userRoutes";
-import uploadRoutes from "./routes/uploadRoutes";
-import adminRoutes from "./routes/adminRoutes";
+import connectDatabase from "./config/database.js";
+import authRoutes from "./routes/authRoutes.js";
+import eventRoutes from "./routes/eventRoutes.js";
+import userRoutes from "./routes/userRoutes.js";
+import uploadRoutes from "./routes/uploadRoutes.js";
+import adminRoutes from "./routes/adminRoutes.js";
 
 dotenv.config();
 
