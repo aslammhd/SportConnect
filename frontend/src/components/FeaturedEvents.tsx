@@ -25,8 +25,15 @@ function FeaturedEvents() {
       try {
         setLoading(true);
 
-        const data =
-          await getEvents();
+        // const data =
+        //   await getEvents();
+
+        // setEvents(
+        //   data.events.slice(0, 3)
+        // );
+        const data = await getEvents();
+
+        console.log("FEATURED EVENTS API DATA:", data);
 
         setEvents(
           data.events.slice(0, 3)

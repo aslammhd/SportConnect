@@ -69,8 +69,13 @@ function Events() {
 
     const fetchEvents = async () => {
         try {
-            const data =
-                await getEvents();
+            // const data =
+            //     await getEvents();
+
+            // setEvents(data.events);
+            const data = await getEvents();
+
+            console.log("EVENTS API DATA:", data);
 
             setEvents(data.events);
         } catch (error) {
