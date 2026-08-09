@@ -23,7 +23,7 @@ function SportCard({
   const handleClick = () => {
     navigate(
       `/events?sport=${encodeURIComponent(
-        sport.name
+         sport.name.toLowerCase()
       )}`
     );
   };

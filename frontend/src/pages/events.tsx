@@ -105,7 +105,8 @@ function Events() {
 
             const matchesSport =
                 selectedSport === "all" ||
-                event.sport === selectedSport;
+                event.sport.toLowerCase() ===
+                selectedSport.toLowerCase();
 
             const matchesSkill =
                 selectedSkill === "all" ||
