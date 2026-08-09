@@ -6,7 +6,7 @@ import {
   ShieldCheck,
   UserCircle,
 } from "lucide-react";
-
+import SportConnectLogo from "../assets/images/SportConnectLogo.png";
 import {
   Link,
   NavLink,
@@ -81,7 +81,7 @@ function Navbar() {
             className="flex items-center"
           >
             <img
-              src="src/assets/images/SportConnectLogo.png"
+              src={SportConnectLogo}
               alt="SportConnect"
               className="
                     h-10
@@ -307,7 +307,7 @@ function Navbar() {
         >
           <Link to="/">
             <img
-              src="src/assets/images/SportConnectLogo.png"
+              src={SportConnectLogo}
               alt="SportConnect"
               className="
                     h-10

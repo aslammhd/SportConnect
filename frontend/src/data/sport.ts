@@ -1,31 +1,32 @@
 import type { Sport } from "../types/sport";
 
+import footballImage from "../assets/images/footballSportCard.png";
+import cyclingImage from "../assets/images/cyclingSportCard.png";
+import hikingImage from "../assets/images/hikingSportCard.png";
+import swimmingImage from "../assets/images/swimmingSportCard.png";
+
 export const sports: Sport[] = [
   {
     id: 1,
     name: "Football",
-    image:
-      "src/assets/images/footballSportCard.png",
+    image: footballImage,
   },
 
   {
     id: 2,
     name: "Cycling",
-    image:
-      "src/assets/images/cyclingSportCard.png",
+    image: cyclingImage,
   },
 
   {
     id: 3,
     name: "Hiking",
-    image:
-      "src/assets/images/hikingSportCard.png",
+    image: hikingImage,
   },
 
   {
     id: 4,
     name: "Swimming",
-    image:
-      "src/assets/images/swimmingSportCard.png",
+    image: swimmingImage,
   },
 ];
